@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+}
+.text-center{
+    text-align: center !important;
+}
+.bg-gradient-primary-to-secondary {
+    background: #1e2f97;
+    background: linear-gradient(#1e2f97, #1e2f97 0%, #1AA7EC 100%);
+    border-radius: 50px;
+    width:29%;
+    height:30px;
+    color:white;
+    margin-top:5%;
+}
+.navbar-brand{
+    color: #1e2f97;
+    color: linear-gradient(#1e2f97, #1e2f97 0%, #1AA7EC 100%);
+}
+.btn-primary{
+    margin-top:3%;
+    width:120px;
+    height:50px;
+}
+#my-poto{
+    border-radius: 100%;
+    margin:20px 20px;
+    border-style:solid;
+    border-color:linear-gradient(#1e2f97, #1e2f97 0%, #1AA7EC 100%);
+    margin-top:5%;
+    background: #1e2f97;
+    background: linear-gradient(#1e2f97, #1e2f97 0%, #1AA7EC 100%);
+}
+#about-section{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    margin-top:6%;
+}
+.text-gradient {
+    background: -webkit-linear-gradient(#1e2f97, #1e2f97 0%, #1AA7EC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fw-bolder {
+  font-weight: bolder !important;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.fw-light {
+  font-weight: 200 !important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+d-flex {
+  display: flex !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  padding:20px;
+}
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+.small, .small {
+  font-size: 0.875em;
+  text-align:center;
+  margin-top:15px;
+}
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width:600px){
+  body, .text-center, .bg-gradient-primary-to-secondary, .navbar-brand, .btn-primary, #my-poto, #about-section,
+  .text-gradient, .text-gradient, .fw-bolder, .lead, .fw-light, .mb-4, .text-muted, d-flex, .justify-content-center,
+  .bg-white, .col-auto, .small, .small{
+          width:100%;
+          margin-top:0;
+          border-spacing: 25px;
+    }
+}
